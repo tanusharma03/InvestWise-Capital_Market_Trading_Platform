@@ -1,48 +1,30 @@
-#Welcome to Your Project
+🏦 InvestWise – A Capital Market Trading Platform
+InvestWise is a full-stack capital market trading platform that allows users to manage their investments across stocks, mutual funds, and bonds. It features a dynamic dashboard with real-time market data, portfolio tracking, transaction history, and curated financial news—all wrapped in a clean, responsive UI built with a green-themed design.
 
-How to Edit This Code
-There are several ways to edit your application, ensuring flexibility to suit your workflow.
+🔧 Tech Stack:
+Frontend: React.js, Tailwind CSS, Framer Motion, Recharts
 
-Edit Online
-Visit the Project Dashboard to make changes directly. All updates will be committed automatically to the repository.
+Backend: Node.js, Express.js, JWT Auth
 
-Use Your Preferred IDE
-To work locally, follow these steps:
+Database: PostgreSQL
 
-Clone the repository using your project's Git URL:
+Deployment: Vercel (Frontend), Render/Heroku (Backend), Supabase/PostgreSQL (DB)
 
-sh
-Copy code
-git clone <YOUR_GIT_URL>
-Navigate to the project directory:
+✨ Key Features:
+Modern landing page with login/signup modals
 
-sh
-Copy code
-cd <YOUR_PROJECT_NAME>
-Install dependencies:
+JWT-based authentication with bcrypt password hashing
 
-sh
-Copy code
-npm install
-Start the development server with auto-reloading and instant preview:
+Sliding sidebar menu with options like Portfolio, Stocks, Watchlist, Dark Mode
 
-sh
-Copy code
-npm run dev
-Edit Directly on GitHub
-Navigate to the file you want to edit.
-Click the pencil icon ("Edit") in the top-right corner of the file view.
-Make your changes and commit them.
-Use GitHub Codespaces
-Navigate to your repository's main page.
-Click the green "Code" button and go to the "Codespaces" tab.
-Launch a new Codespace to edit files directly in a full-featured development environment.
-Commit and push changes when you're done.
-Technologies Used
-This project leverages the following tools and frameworks:
+Real-time market snapshot (NIFTY/SENSEX trends, gainers, losers)
 
-Vite: Fast and modern development build tool.
-TypeScript: Ensures strong typing and maintainable code.
-React: For building dynamic user interfaces.
-shadcn-ui: Modular component library.
-Tailwind CSS: Utility-first CSS framework for rapid styling.
+Buy/Sell actions, fund account, and withdraw options
+
+Watchlist overview with quick actions
+
+Personalized trading highlights and performance analytics
+
+Customizable widgets: crypto trends, exchange rates, commodities
+
+Responsive design with smooth animations and dark mode toggle
